@@ -1,0 +1,25 @@
+body::before{
+    display: block;
+    content: '';
+    height: 72px;
+}
+
+#boxes .card{
+    min-height: 260px;
+}
+
+#learn img{
+    height: 500px;
+}
+
+#instructors img{
+    width: 100px;
+    background-color: rgb(192, 189, 185);
+}
+
+/*Breakpoint for medium*/
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
